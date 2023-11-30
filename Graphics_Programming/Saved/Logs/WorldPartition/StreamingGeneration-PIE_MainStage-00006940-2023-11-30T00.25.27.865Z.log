@@ -1,0 +1,999 @@
+[+] Containers:
+ |- [+] Container: /Game/MainStage
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:0342151B47E98C91C79C628C5381FE71 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB092AC101_1547946378 Label:RectLight23 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20.000 Y=990.000 Z=2220.000), Max=(X=2020.000 Y=2990.000 Z=4220.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:04DE690C41511C3CDC78DAB8FC3DF523 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0926C101_1202555659 Label:BP_ProjectileDestroyZone12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3890.000 Y=-2362.500 Z=393.750), Max=(X=-3190.000 Y=-2357.500 Z=1406.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile FolderGuid:2A90B18B428F48E993FA0E846C8F6714
+ |   |   |- Guid:04E8995F43364E7D09A1D2A305BDC31A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB092AC101_1654598379 Label:BP_Fan3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=918.750 Y=1475.000 Z=3528.000), Max=(X=1281.250 Y=1525.000 Z=3592.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:087166344DC73C2961A21AA8D30982C8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000061048ba5 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-12800.000 Z=0.000), Max=(X=-12800.000 Y=12800.000 Z=1038.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:0887560447341DF39A28B59E3C254C0C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008429cf49 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=64000.000 Z=8727.344), Max=(X=89600.000 Y=89600.000 Z=12871.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:09F9EDCC4E9A22EA4FC681847CADAC1C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1346619057 Label:BP_DisableShootZone3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-487.500 Z=1990.000), Max=(X=-1712.500 Y=-312.500 Z=2010.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:101FE8314B10F656A5F1A79899F1C982 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB098DBE01_1789677658 Label:BP_Platform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2125.000 Y=735.000 Z=2975.000), Max=(X=-1875.000 Y=985.000 Z=3025.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:132045494259EE8F0C212F9A0DFCC2E8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB094BBE01_1884912004 Label:Base Layout 2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-3400.000 Z=200.000), Max=(X=1300.000 Y=2100.000 Z=4700.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:5F1896304C7C5E0C57C284BF7A44B9BF FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |- Guid:1843C24A49324499FCE986A017A20D47 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB094BBE01_1879580003 Label:RectLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2060.000 Y=-2480.000 Z=-110.000), Max=(X=-60.000 Y=-480.000 Z=1890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:1B34C19D4F3A1528108EFEBBE7F53CD4 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1781411560 Label:RectLight20 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2450.000 Y=-1450.000 Z=2090.000), Max=(X=2550.000 Y=3550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:1B491A7643B5B8B5A23D819DB1C97C51 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097EBE01_1810441978 Label:RectLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2060.000 Y=-3160.000 Z=-110.000), Max=(X=-60.000 Y=-1160.000 Z=1890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:1C07CFC245E2E64FF9DB578C45F84F01 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097EBE01_2130496980 Label:Switch 2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-726.000 Y=-2766.000 Z=494.000), Max=(X=-614.000 Y=-2654.000 Z=606.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:1FFF924A464F03DA46C52499E31A7706 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000075fc1435 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-38400.000 Z=-0.781), Max=(X=12800.000 Y=-12800.000 Z=1993.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:22FE01F44C4A221534E37689C150385A BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0925C101_2119443481 Label:DeathWall2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3900.000 Y=-2102.500 Z=250.000), Max=(X=-3200.000 Y=-1077.500 Z=350.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:22FF4B66425E17A8764D958D6339C0F9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ed334d9f Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=64000.000 Z=2080.469), Max=(X=12800.000 Y=89600.000 Z=10647.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:23E083E9421E49A11EFDA99758A76ADC BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0926C101_1281372661 Label:Switch 12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3796.000 Y=-2266.000 Z=484.000), Max=(X=-3684.000 Y=-2154.000 Z=596.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:24361F9B498D3554C159078E666C00C2 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_401C8360DB0982BE01_1273305694 Label:SpotLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4235.082 Y=-955.082 Z=430.000), Max=(X=-2844.918 Y=435.082 Z=1820.164) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:24A8F0AA441EB96A297331B7925325A6 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1846448595 Label:RectLight13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3200.000 Y=-1250.000 Z=2690.000), Max=(X=-1200.000 Y=750.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:254CA8C14DB0E6AC14E622A27ECE762D BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1845947377 Label:BP_ProjectileDestroyZone9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-600.000 Y=-300.000 Z=3717.500), Max=(X=-200.000 Y=1400.000 Z=3722.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2A82B1854AE85A747240C89A1190CF85 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0992BE01_1533495556 Label:Switch 9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1326.000 Y=1814.000 Z=3854.000), Max=(X=-1214.000 Y=1926.000 Z=3966.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:2AC721244A3DB4EC30275184BB0963BD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1667067414 Label:BP_DisableShootZone6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-187.500 Z=2690.000), Max=(X=-1712.500 Y=-12.500 Z=2710.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:2B461E494B9F94A140AC77815385DFFD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1766518375 Label:BP_ProjectileDestroyZone7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-202.500 Y=-300.000 Z=3722.500), Max=(X=-197.500 Y=1400.000 Z=4197.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2C5BFD4B41DC7A57E5A081B5F87A1550 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004fc1faed Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-64000.000 Z=8610.156), Max=(X=89600.000 Y=-38400.000 Z=11772.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:2E7465A44F7E365830CF24A8811EF4E1 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007ee1c9e3 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-12800.000 Z=7.031), Max=(X=-38400.000 Y=12800.000 Z=6477.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:2FC334494C7A4EEE23DDD1B509196B93 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097FBE01_1465013160 Label:Switch 3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3036.000 Y=-2706.000 Z=1134.000), Max=(X=-2924.000 Y=-2594.000 Z=1246.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:31017BC54DD9C912EAFD94A1A7C1B55E BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1542743840 Label:BP_ProjectileDestroyZone15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=312.500 Y=1197.500 Z=3800.000), Max=(X=500.000 Y=1202.500 Z=4100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:314A77E7440ED0FFE72E68A62CA8D1D2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007a1ec134 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-38400.000 Z=5807.031), Max=(X=-64000.000 Y=-12800.000 Z=9500.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:31D8865448414A50801741A30CDF685F BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1801012594 Label:RectLight12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=-800.000 Z=1690.000), Max=(X=-1100.000 Y=1200.000 Z=3690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:33CD991548A32A90ED95F0891BC72E78 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000808a2d8c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=38400.000 Z=5341.406), Max=(X=64000.000 Y=64000.000 Z=10853.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:37D1C65B454EE451B8EC27A8FD3AA8AB BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e9f6f481 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-64000.000 Z=1064.062), Max=(X=38400.000 Y=-38400.000 Z=6511.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:3AF51C3042FFCC52560173BC93480FD7 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1663424413 Label:BP_DisableShootZone5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-487.500 Z=2590.000), Max=(X=-1712.500 Y=-312.500 Z=2610.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:3E1681BE4375035B429B09B35519417B BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000326281e7 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-38400.000 Z=3310.156), Max=(X=64000.000 Y=-12800.000 Z=11691.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:41FD67F64D889B33A4A382AA9393CF2D BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0982BE01_1817694701 Label:BP_ProjectileDestroyZone2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=7.500 Z=1800.000), Max=(X=-2900.000 Y=12.500 Z=2100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- Guid:431912334749DCE71D54A99356C0B360 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000eef772e0 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-12800.000 Z=847.656), Max=(X=-64000.000 Y=12800.000 Z=9271.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:4974A90C4707F58056EBC0809AB1DDBF BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB094BBE01_1686907002 Label:RectLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2755.000 Y=-1755.000 Z=-1135.000), Max=(X=695.000 Y=1695.000 Z=2315.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:4EC5556D47AEF2F40D67C995FFEE0916 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0987BE01_2037401597 Label:Switch 6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3266.000 Y=-46.000 Z=3044.000), Max=(X=-3154.000 Y=66.000 Z=3156.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:5011C7944BF3E1EA4FAC638B59DF5792 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB0929C101_1138497199 Label:BP_Fan2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=498.000 Y=737.500 Z=3165.000), Max=(X=562.000 Y=1462.500 Z=3215.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:512947B24B2E1E3ECC1081BD21575576 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_401C8360DB0949BE01_1812985649 Label:PointLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-980.000 Y=-990.000 Z=-490.000), Max=(X=1020.000 Y=1010.000 Z=1510.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:5411FF1949C35F3A598AD0BD69C6E231 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000058c07e9c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=64000.000 Z=7785.156), Max=(X=64000.000 Y=89600.000 Z=11791.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:548F2705451DA2FC98B90486A2E7ED3F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000fdc49d15 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-64000.000 Z=5639.844), Max=(X=64000.000 Y=-38400.000 Z=10830.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:56D32ADD4F5EDC7E9E5678A25C3C90A9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009ec32732 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=12800.000 Z=0.000), Max=(X=38400.000 Y=38400.000 Z=5888.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:58FBB0974032C0AE5D96F29333067EF4 BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0929C101_2016764201 Label:DeathWall3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=900.000 Y=1200.000 Z=2950.000), Max=(X=1200.000 Y=2000.000 Z=3050.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5998C1764753667DD627B487E89064A9 BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0929C101_1086483198 Label:DeathWall SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=600.000 Y=1000.000 Z=2950.000), Max=(X=1200.000 Y=1200.000 Z=3050.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:59D567B34B74458883F0C086B173ED53 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000479efcd Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=38400.000 Z=5450.781), Max=(X=-64000.000 Y=64000.000 Z=11130.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:5A61BF874E2978C07B96F78E605EB21A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097EBE01_2111959979 Label:BP_Door2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1590.000 Y=-2800.000 Z=390.000), Max=(X=-1510.000 Y=-2500.000 Z=890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:5A9B76F04897746AA4EF02ADE6A0C75C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002387b43f Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=12800.000 Z=131.250), Max=(X=-38400.000 Y=38400.000 Z=8019.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:5E533D61427B820102A1EDAD9D476A2D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e893856a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-89600.000 Z=5939.844), Max=(X=64000.000 Y=-64000.000 Z=10986.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:5F1896304C7C5E0C57C284BF7A44B9BF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB0948BE01_2004570471 Label:Base Layout 1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1600.000 Y=-1000.000 Z=-100.000), Max=(X=300.000 Y=300.000 Z=1000.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |- Guid:5F2E2925424AE93E07B81AABB0A97C51 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0992BE01_1114048554 Label:BP_Door8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1100.000 Y=1410.000 Z=3800.000), Max=(X=-800.000 Y=1490.000 Z=4300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:602563C34E0CD91EAD89ABAE48B48134 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0982BE01_1845743702 Label:RectLight9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4010.000 Y=-840.000 Z=1090.000), Max=(X=-2010.000 Y=1160.000 Z=3090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:610D4895424793940603E8A043F0BDE7 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1784239415 Label:BP_ProjectileDestroyZone4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2612.500 Y=-825.000 Z=2767.500), Max=(X=-1687.500 Y=325.000 Z=2772.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- Guid:611C055D4D999CFE5CD88FAF4B04AB9C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1724917374 Label:BP_ProjectileDestroyZone6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-602.500 Y=-300.000 Z=3722.500), Max=(X=-597.500 Y=1400.000 Z=4197.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6300AA344D7E740451747796C13A1D4F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ada93d64 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-64000.000 Z=5113.281), Max=(X=-38400.000 Y=-38400.000 Z=7863.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:647817754841478B7E4EB58985DEE0EA BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007055a5f9 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-89600.000 Z=6572.656), Max=(X=-12800.000 Y=-64000.000 Z=11941.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:6603B34D48B0135B5FD8B082B0320A85 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0982BE01_1581212698 Label:BP_Door5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2690.000 Y=-400.000 Z=1800.000), Max=(X=-2610.000 Y=-100.000 Z=2300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:677A2BF8450120D0FC0CCEA119B4B7C9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ce61b913 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=38400.000 Z=1202.344), Max=(X=38400.000 Y=64000.000 Z=8677.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:67FBE5FC4EB99B252B69BCA76A25D7F8 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0980BE01_1918500338 Label:BP_ProjectileDestroyZone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3900.000 Y=-1662.500 Z=393.750), Max=(X=-3200.000 Y=-1657.500 Z=1406.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- Guid:68D00BCA4F55B410044F9D9FBC70652E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004985b47c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=64000.000 Z=6619.531), Max=(X=-38400.000 Y=89600.000 Z=13197.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:6B342451411AED77B796D4837F9CC979 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1809744376 Label:BP_ProjectileDestroyZone8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-600.000 Y=-290.000 Z=4197.500), Max=(X=-200.000 Y=1410.000 Z=4202.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6FA6641747858E98101CB895F7A7EED8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002cd92eb1 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=38400.000 Z=1284.375), Max=(X=-12800.000 Y=64000.000 Z=7450.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:707D0D104A1A6DBFBBD050AD016E1BA7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0 Label:LandscapeStreamingProxy_4_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:738C4ED141E18122A2358F84E3951E17 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000089b7cce8 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=12800.000 Z=0.000), Max=(X=-12800.000 Y=38400.000 Z=3609.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:74A0691A490380034BA38380F270029A BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1787922561 Label:RectLight21 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3650.000 Y=-1450.000 Z=2090.000), Max=(X=1350.000 Y=3550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7637F5E64AE48B65DC0661880F3278BA BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097BBE01_1330122449 Label:Switch 1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-726.000 Y=-1466.000 Z=464.000), Max=(X=-614.000 Y=-1354.000 Z=576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:7644B38E49943AEA928F7980DBD39FF5 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000061d8a24a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=64000.000 Z=5080.469), Max=(X=-12800.000 Y=89600.000 Z=13166.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:79A1652241A319C3E2BEF68A979FCD6F BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1944109596 Label:RectLight14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-1350.000 Z=2690.000), Max=(X=-2000.000 Y=650.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:7BC3BAF943D8FA2AF54C5AA2A29FA362 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098FBE01_1602852018 Label:RectLight17 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4800.000 Y=-480.000 Z=2490.000), Max=(X=-800.000 Y=3520.000 Z=6490.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7EB577C1484BEBBD4B5D77AF6A9FD488 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009100159d Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=12800.000 Z=5872.656), Max=(X=89600.000 Y=38400.000 Z=13596.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:815A27B240A0C1A12D2ADC811F72CC30 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000cf9074b0 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-12800.000 Z=0.000), Max=(X=38400.000 Y=12800.000 Z=3310.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:81C792BA4BF473C75BC0EA8C3BFB6386 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1730345559 Label:RectLight19 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2450.000 Y=-2450.000 Z=2090.000), Max=(X=2550.000 Y=2550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:82111EBA4245874D247823848B4F1385 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0 Label:LandscapeStreamingProxy_4_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8246F9C84C13BD3D8E1D528D1EC54C79 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000076832c01 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-38400.000 Z=9125.781), Max=(X=89600.000 Y=-12800.000 Z=12972.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:838F3A1D41B18E74E470A3BF948E5AD0 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_RotatingPlatform.BP_RotatingPlatform_C NativeClass:/Script/Engine.Actor Name:BP_RotatingPlatform_C_UAID_401C8360DB0992BE01_2138090564 Label:BP_RotatingPlatform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1087.500 Y=497.500 Z=2993.750), Max=(X=287.500 Y=622.500 Z=3006.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:FD5738E04A5D92C8E9F46193BCB6EE75
+ |   |   |- Guid:85A1405B41C50D08F8434E991DAAC9DB BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002a2da2ce Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=12800.000 Z=-0.781), Max=(X=12800.000 Y=38400.000 Z=1284.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:87AD541C45D7769AD130879D753E2E45 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000077f7731e Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=64000.000 Z=2653.906), Max=(X=38400.000 Y=89600.000 Z=9796.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:8FE63B434849D761E62B0FAE6CFC6742 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000809b5cf8 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=38400.000 Z=9205.469), Max=(X=89600.000 Y=64000.000 Z=14989.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:904ABE1C4A39F6244FCE0DACE6F83751 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000923b1f94 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-12800.000 Z=870.312), Max=(X=64000.000 Y=12800.000 Z=9125.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:904AC1574D3D86CA3F4393BBCDA9E6F1 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097FBE01_1380543158 Label:RectLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3860.000 Y=-4630.000 Z=-620.000), Max=(X=140.000 Y=-630.000 Z=3380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:92451E4545D9B4D65D594C897520AFFE BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000249b061a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-38400.000 Z=0.000), Max=(X=-12800.000 Y=-12800.000 Z=5260.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:925E49854841EE710F0D648BCA9515F2 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1484924412 Label:BP_ProjectileDestroyZone3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2642.500 Y=-422.500 Z=1787.500), Max=(X=-2637.500 Y=-97.500 Z=2312.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- Guid:93248EAF43A227F32DED2E9F3F7B8C92 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097FBE01_1418753159 Label:RectLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4850.000 Y=-4620.000 Z=-620.000), Max=(X=-850.000 Y=-620.000 Z=3380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:932568234ECC23E19F09B4A8CB3E252A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008074caed Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-89600.000 Z=4621.094), Max=(X=12800.000 Y=-64000.000 Z=11442.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:95C1E4CE42326EBC921163916DBD9517 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0982BE01_1302595695 Label:RectLight8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-6050.000 Y=-2750.000 Z=90.000), Max=(X=-1050.000 Y=2250.000 Z=5090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:962D6BE34E7839A2A94E65B8F6CE5D43 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-240.000 Y=-40.000 Z=190.000), Max=(X=-160.000 Y=40.000 Z=374.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:967EAF8F42834A8583C76FA8F686A14A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB098BBE01_1248918303 Label:Base Layout3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3400.000 Y=300.000 Z=2900.000), Max=(X=-1500.000 Y=1900.000 Z=4600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:132045494259EE8F0C212F9A0DFCC2E8 FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |- Guid:9818F7E546C6A3993192FA84B048DB6A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000025e68ee6 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-38400.000 Z=1038.281), Max=(X=-38400.000 Y=-12800.000 Z=8925.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:994EFA0F4190788FB2F0E3A5ED6C6091 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1809738562 Label:RectLight22 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3650.000 Y=-2430.000 Z=2090.000), Max=(X=1350.000 Y=2570.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9CB022554C5BE7B58F3B4CB9AC08115A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1682219558 Label:BP_ProjectileDestroyZone11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-500.000 Y=-392.500 Z=3787.500), Max=(X=-300.000 Y=-387.500 Z=4112.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9CBBDFD8486812AAE8770CB093DB7460 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0 Label:LandscapeStreamingProxy_3_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9D1AAC1C44C967DA67BFE1855888E6B9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000005ade2593 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=12800.000 Z=3900.781), Max=(X=-64000.000 Y=38400.000 Z=10327.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:9D6B00CF41615F016EEC7D9BBDBF14C3 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097BBE01_1182011448 Label:BP_Door SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1200.000 Y=-1690.000 Z=400.000), Max=(X=-900.000 Y=-1610.000 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:A094EFD842C29193F3CF828F922AD58C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000002ff7cbc Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-64000.000 Z=5449.219), Max=(X=-64000.000 Y=-38400.000 Z=8761.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A0BEE913467B787061A3FCBD13D89F73 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b1d9170c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-38400.000 Z=0.781), Max=(X=38400.000 Y=-12800.000 Z=6920.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A1B58B714367A2E4145D728993CF16AC BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000047fd3b2b Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-89600.000 Z=7269.531), Max=(X=-64000.000 Y=-64000.000 Z=12157.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A344A312417AA4DAB3863D85A6EACA25 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000faffa43c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-89600.000 Z=4950.781), Max=(X=38400.000 Y=-64000.000 Z=8967.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A46EEE084664DB59D2D2129CDDBF1AE7 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB090AC101_1189290728 Label:Switch 11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=344.000 Y=-256.000 Z=3804.000), Max=(X=456.000 Y=-144.000 Z=3916.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:A653EAAA479703688EFD89BF5993FD8C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000456f111a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-12800.000 Z=5091.406), Max=(X=89600.000 Y=12800.000 Z=11586.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:A76ED4F447BC1CF9182EF48A1B672E90 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0992BE01_1896129563 Label:Switch 10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=358.223 Y=1237.472 Z=3817.640), Max=(X=470.223 Y=1349.472 Z=3929.640) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:AC3388C149420E5F0AE6C2B21F1A0D69 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1479799838 Label:BP_ProjectileDestroyZone13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=307.500 Y=1200.000 Z=3800.000), Max=(X=312.500 Y=1400.000 Z=4100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:AE8202C64FAF7491058D709DBD9A7E88 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1310346055 Label:BP_DisableShootZone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2597.500 Y=-765.000 Z=1790.000), Max=(X=-1722.500 Y=285.000 Z=1810.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:AED54D3E490C3E7C9C2A4CA06CBD312B BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0980BE01_2117210340 Label:RectLight7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-5540.000 Y=-2930.000 Z=-610.000), Max=(X=-1540.000 Y=1070.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:AEFE58524EB02A574182C1AC85D76E6D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000be4f81c5 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-89600.000 Z=6608.594), Max=(X=-38400.000 Y=-64000.000 Z=12658.594) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:B033CFCB4C3236781E4FB79744B48DDC BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1689187592 Label:RectLight10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=-1700.000 Z=1390.000), Max=(X=-1100.000 Y=300.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:B4462E9349E4C0A56D2E3F9F561B1C9D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a7e8df26 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-12800.000 Z=-100.000), Max=(X=12800.000 Y=12800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:B5EF0E63448E087F54597989CA4E932E BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1748126593 Label:RectLight11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3110.000 Y=-810.000 Z=1090.000), Max=(X=-1110.000 Y=1190.000 Z=3090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:BFC0CFB74CCE54FF906EC281013602C5 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1638644557 Label:BP_ProjectileDestroyZone10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-500.000 Y=1487.500 Z=3787.500), Max=(X=-300.000 Y=1492.500 Z=4112.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C107B6DF4889256CA03FC4B623CDB5FC BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e95cf541 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-64000.000 Z=1993.750), Max=(X=-12800.000 Y=-38400.000 Z=8566.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:C4D121FD4E5A65B181B7808504B64064 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB098DBE01_2145609662 Label:BP_ProjectileDestroyZone5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2100.000 Y=1017.500 Z=3500.000), Max=(X=-1900.000 Y=1022.500 Z=3800.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C6104E604E796D22C97031BCDB5FCAF0 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007e3ba091 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=12800.000 Z=2264.062), Max=(X=64000.000 Y=38400.000 Z=9232.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:C612FE0A4CC7E0B91BDE26AAF4D24190 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0987BE01_2092887598 Label:BP_Door6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=110.000 Z=3000.000), Max=(X=-2800.000 Y=190.000 Z=3500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:C8A468EA4A070CFDA34562BE0D3FADFE BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB092BC101_1120459557 Label:RectLight24 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1400.000 Y=640.000 Z=3580.000), Max=(X=600.000 Y=2640.000 Z=5580.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:CBF30B5F4829A0CC5F0CCDA2D0B4267A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1357457058 Label:BP_DisableShootZone4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-187.500 Z=2090.000), Max=(X=-1712.500 Y=-12.500 Z=2110.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:CD096C7843C481E65623A195FC42BCFF BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098CBE01_1956028480 Label:RectLight15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4060.000 Y=-300.000 Z=2690.000), Max=(X=-2060.000 Y=1700.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:D1790BD644D946F3809784BB5108DA71 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098EBE01_1132938841 Label:RectLight16 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3000.000 Y=200.000 Z=2790.000), Max=(X=-1000.000 Y=2200.000 Z=4790.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:D50A561D43BDC3723FF9B2A5CF772454 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0980BE01_2077686339 Label:RectLight6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-5550.000 Y=-4660.000 Z=-610.000), Max=(X=-1550.000 Y=-660.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- Guid:D75E300443DA7F0DA47AAD9D9B3AABED BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0982BE01_1416147697 Label:Switch 4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3606.000 Y=-996.000 Z=1044.000), Max=(X=-3494.000 Y=-884.000 Z=1156.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:D97B3E514D1673FB3F1DAE9393134162 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e6f72a11 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=64000.000 Z=8263.281), Max=(X=-64000.000 Y=89600.000 Z=13605.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:D9A3AB1E4D3C3A80F33FB7B5E46DC8CD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0990BE01_1755540197 Label:BP_Door7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1590.000 Y=400.000 Z=3000.000), Max=(X=-1510.000 Y=700.000 Z=3500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:DB588182456AA97D178728BDD906EA8F BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB0990BE01_1655135196 Label:BP_Fan SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3145.000 Y=1048.000 Z=3475.000), Max=(X=-2855.000 Y=1112.000 Z=3525.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DDAB7E2D49EF06B488AB3A8876DF4511 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB098EBE01_1113499839 Label:Switch 8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2056.000 Y=1584.000 Z=3534.000), Max=(X=-1944.000 Y=1696.000 Z=3646.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:DFADB7734ADFF765A579B59BC6C4B9BE BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB098DBE01_1901089659 Label:Switch 7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1836.000 Y=514.000 Z=3604.000), Max=(X=-1724.000 Y=626.000 Z=3716.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:E6C4C89747E65FCDCCFD648F081F47C2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0 Label:LandscapeStreamingProxy_3_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E94AA2814B807AD72A3C8C8201C8737F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000027100cbc Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-64000.000 Z=106.250), Max=(X=12800.000 Y=-38400.000 Z=8805.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:ED2EFE254CB37ABFDB0407865ADD9582 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0982BE01_1755399700 Label:Switch 5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3056.000 Y=84.000 Z=1824.000), Max=(X=-2944.000 Y=196.000 Z=1936.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- Guid:EFE127DE4AC87B71A77BF185DB0CE52E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a0644c05 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-89600.000 Z=7522.656), Max=(X=89600.000 Y=-64000.000 Z=13553.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:F110D73040E18025284B60A5E38BE3AA BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB092AC101_1706458380 Label:BP_Fan4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=908.750 Y=1875.000 Z=3528.000), Max=(X=1271.250 Y=1925.000 Z=3592.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F1A4F7294DDFF55AAAF707A9053B3DD1 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1336453056 Label:BP_DisableShootZone2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2187.500 Y=-787.500 Z=1890.000), Max=(X=-2012.500 Y=-612.500 Z=1910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- Guid:F28AE21E43BC5CB958703B8708F1A64E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000462530dd Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=38400.000 Z=100.000), Max=(X=12800.000 Y=64000.000 Z=5252.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:F499096D4C1BBEBE5913DDB93E1EF970 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097FBE01_1357557157 Label:BP_Door3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3190.000 Y=-2800.000 Z=390.000), Max=(X=-3110.000 Y=-2500.000 Z=890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:F4E81540458864929650D1B8E8566222 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000195576f6 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=38400.000 Z=3219.531), Max=(X=-38400.000 Y=64000.000 Z=9172.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- Guid:F56298B845E23D212D3B68BF30ABC13C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0982BE01_1380150696 Label:BP_Door4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3700.000 Y=-890.000 Z=400.000), Max=(X=-3400.000 Y=-810.000 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- Guid:F64C0D7C48C0FA72A0D5E290C298F30B BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0990BE01_1586620195 Label:RectLight18 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3030.000 Y=-300.000 Z=2910.000), Max=(X=-1030.000 Y=1700.000 Z=4910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:FC23D2DE46107C77379A4EAC319E5DAE BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB0926C101_1246679660 Label:BP_Platform2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3800.000 Y=-1860.000 Z=232.900), Max=(X=-3300.000 Y=-1360.000 Z=282.900) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:FD5738E04A5D92C8E9F46193BCB6EE75 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB0909C101_2113810551 Label:Raise-Rotate-Platform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-452.500 Y=497.500 Z=1961.250), Max=(X=-327.500 Y=622.500 Z=2998.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:0342151B47E98C91C79C628C5381FE71 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB092AC101_1547946378 Label:RectLight23 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20.000 Y=990.000 Z=2220.000), Max=(X=2020.000 Y=2990.000 Z=4220.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:04DE690C41511C3CDC78DAB8FC3DF523 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0926C101_1202555659 Label:BP_ProjectileDestroyZone12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3890.000 Y=-2362.500 Z=393.750), Max=(X=-3190.000 Y=-2357.500 Z=1406.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile FolderGuid:2A90B18B428F48E993FA0E846C8F6714
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:04E8995F43364E7D09A1D2A305BDC31A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB092AC101_1654598379 Label:BP_Fan3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=918.750 Y=1475.000 Z=3528.000), Max=(X=1281.250 Y=1525.000 Z=3592.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:087166344DC73C2961A21AA8D30982C8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000061048ba5 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-12800.000 Z=0.000), Max=(X=-12800.000 Y=12800.000 Z=1038.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:0887560447341DF39A28B59E3C254C0C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008429cf49 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=64000.000 Z=8727.344), Max=(X=89600.000 Y=89600.000 Z=12871.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:09F9EDCC4E9A22EA4FC681847CADAC1C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1346619057 Label:BP_DisableShootZone3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-487.500 Z=1990.000), Max=(X=-1712.500 Y=-312.500 Z=2010.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:101FE8314B10F656A5F1A79899F1C982 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB098DBE01_1789677658 Label:BP_Platform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2125.000 Y=735.000 Z=2975.000), Max=(X=-1875.000 Y=985.000 Z=3025.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |   |- Guid:DFADB7734ADFF765A579B59BC6C4B9BE BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB098DBE01_1901089659 Label:Switch 7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1836.000 Y=514.000 Z=3604.000), Max=(X=-1724.000 Y=626.000 Z=3716.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:132045494259EE8F0C212F9A0DFCC2E8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB094BBE01_1884912004 Label:Base Layout 2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-3400.000 Z=200.000), Max=(X=1300.000 Y=2100.000 Z=4700.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:5F1896304C7C5E0C57C284BF7A44B9BF FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |   |- Guid:5F1896304C7C5E0C57C284BF7A44B9BF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB0948BE01_2004570471 Label:Base Layout 1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1600.000 Y=-1000.000 Z=-100.000), Max=(X=300.000 Y=300.000 Z=1000.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |   |- Guid:967EAF8F42834A8583C76FA8F686A14A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_401C8360DB098BBE01_1248918303 Label:Base Layout3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3400.000 Y=300.000 Z=2900.000), Max=(X=-1500.000 Y=1900.000 Z=4600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:132045494259EE8F0C212F9A0DFCC2E8 FolderPath:Stage FolderGuid:F7CF33544AD5203C9DF54EBEFA7F9AE5
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:1843C24A49324499FCE986A017A20D47 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB094BBE01_1879580003 Label:RectLight2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2060.000 Y=-2480.000 Z=-110.000), Max=(X=-60.000 Y=-480.000 Z=1890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:1B34C19D4F3A1528108EFEBBE7F53CD4 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1781411560 Label:RectLight20 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2450.000 Y=-1450.000 Z=2090.000), Max=(X=2550.000 Y=3550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:1B491A7643B5B8B5A23D819DB1C97C51 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097EBE01_1810441978 Label:RectLight3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2060.000 Y=-3160.000 Z=-110.000), Max=(X=-60.000 Y=-1160.000 Z=1890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:1C07CFC245E2E64FF9DB578C45F84F01 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097EBE01_2130496980 Label:Switch 2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-726.000 Y=-2766.000 Z=494.000), Max=(X=-614.000 Y=-2654.000 Z=606.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:5A61BF874E2978C07B96F78E605EB21A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097EBE01_2111959979 Label:BP_Door2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1590.000 Y=-2800.000 Z=390.000), Max=(X=-1510.000 Y=-2500.000 Z=890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:1FFF924A464F03DA46C52499E31A7706 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000075fc1435 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-38400.000 Z=-0.781), Max=(X=12800.000 Y=-12800.000 Z=1993.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:22FE01F44C4A221534E37689C150385A BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0925C101_2119443481 Label:DeathWall2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3900.000 Y=-2102.500 Z=250.000), Max=(X=-3200.000 Y=-1077.500 Z=350.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:22FF4B66425E17A8764D958D6339C0F9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ed334d9f Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=64000.000 Z=2080.469), Max=(X=12800.000 Y=89600.000 Z=10647.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:23E083E9421E49A11EFDA99758A76ADC BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0926C101_1281372661 Label:Switch 12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3796.000 Y=-2266.000 Z=484.000), Max=(X=-3684.000 Y=-2154.000 Z=596.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:FC23D2DE46107C77379A4EAC319E5DAE BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB0926C101_1246679660 Label:BP_Platform2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3800.000 Y=-1860.000 Z=232.900), Max=(X=-3300.000 Y=-1360.000 Z=282.900) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:24361F9B498D3554C159078E666C00C2 BaseClass: NativeClass:/Script/Engine.SpotLight Name:SpotLight_UAID_401C8360DB0982BE01_1273305694 Label:SpotLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4235.082 Y=-955.082 Z=430.000), Max=(X=-2844.918 Y=435.082 Z=1820.164) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:24A8F0AA441EB96A297331B7925325A6 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1846448595 Label:RectLight13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3200.000 Y=-1250.000 Z=2690.000), Max=(X=-1200.000 Y=750.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:254CA8C14DB0E6AC14E622A27ECE762D BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1845947377 Label:BP_ProjectileDestroyZone9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-600.000 Y=-300.000 Z=3717.500), Max=(X=-200.000 Y=1400.000 Z=3722.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:2A82B1854AE85A747240C89A1190CF85 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0992BE01_1533495556 Label:Switch 9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1326.000 Y=1814.000 Z=3854.000), Max=(X=-1214.000 Y=1926.000 Z=3966.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:5F2E2925424AE93E07B81AABB0A97C51 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0992BE01_1114048554 Label:BP_Door8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1100.000 Y=1410.000 Z=3800.000), Max=(X=-800.000 Y=1490.000 Z=4300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:2AC721244A3DB4EC30275184BB0963BD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1667067414 Label:BP_DisableShootZone6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-187.500 Z=2690.000), Max=(X=-1712.500 Y=-12.500 Z=2710.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:2B461E494B9F94A140AC77815385DFFD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1766518375 Label:BP_ProjectileDestroyZone7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-202.500 Y=-300.000 Z=3722.500), Max=(X=-197.500 Y=1400.000 Z=4197.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:2C5BFD4B41DC7A57E5A081B5F87A1550 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004fc1faed Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-64000.000 Z=8610.156), Max=(X=89600.000 Y=-38400.000 Z=11772.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:2E7465A44F7E365830CF24A8811EF4E1 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007ee1c9e3 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-12800.000 Z=7.031), Max=(X=-38400.000 Y=12800.000 Z=6477.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:2FC334494C7A4EEE23DDD1B509196B93 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097FBE01_1465013160 Label:Switch 3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3036.000 Y=-2706.000 Z=1134.000), Max=(X=-2924.000 Y=-2594.000 Z=1246.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:F499096D4C1BBEBE5913DDB93E1EF970 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097FBE01_1357557157 Label:BP_Door3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3190.000 Y=-2800.000 Z=390.000), Max=(X=-3110.000 Y=-2500.000 Z=890.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:31017BC54DD9C912EAFD94A1A7C1B55E BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1542743840 Label:BP_ProjectileDestroyZone15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=312.500 Y=1197.500 Z=3800.000), Max=(X=500.000 Y=1202.500 Z=4100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:314A77E7440ED0FFE72E68A62CA8D1D2 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007a1ec134 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-38400.000 Z=5807.031), Max=(X=-64000.000 Y=-12800.000 Z=9500.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 31]
+ |   |   |   |- Guid:31D8865448414A50801741A30CDF685F BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1801012594 Label:RectLight12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=-800.000 Z=1690.000), Max=(X=-1100.000 Y=1200.000 Z=3690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 32]
+ |   |   |   |- Guid:33CD991548A32A90ED95F0891BC72E78 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000808a2d8c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=38400.000 Z=5341.406), Max=(X=64000.000 Y=64000.000 Z=10853.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 33]
+ |   |   |   |- Guid:37D1C65B454EE451B8EC27A8FD3AA8AB BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e9f6f481 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-64000.000 Z=1064.062), Max=(X=38400.000 Y=-38400.000 Z=6511.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 34]
+ |   |   |   |- Guid:3AF51C3042FFCC52560173BC93480FD7 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1663424413 Label:BP_DisableShootZone5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-487.500 Z=2590.000), Max=(X=-1712.500 Y=-312.500 Z=2610.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [ 35]
+ |   |   |   |- Guid:3E1681BE4375035B429B09B35519417B BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000326281e7 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-38400.000 Z=3310.156), Max=(X=64000.000 Y=-12800.000 Z=11691.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 36]
+ |   |   |   |- Guid:41FD67F64D889B33A4A382AA9393CF2D BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0982BE01_1817694701 Label:BP_ProjectileDestroyZone2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=7.500 Z=1800.000), Max=(X=-2900.000 Y=12.500 Z=2100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- [+] [ 37]
+ |   |   |   |- Guid:431912334749DCE71D54A99356C0B360 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000eef772e0 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-12800.000 Z=847.656), Max=(X=-64000.000 Y=12800.000 Z=9271.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 38]
+ |   |   |   |- Guid:4974A90C4707F58056EBC0809AB1DDBF BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB094BBE01_1686907002 Label:RectLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2755.000 Y=-1755.000 Z=-1135.000), Max=(X=695.000 Y=1695.000 Z=2315.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 39]
+ |   |   |   |- Guid:4EC5556D47AEF2F40D67C995FFEE0916 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0987BE01_2037401597 Label:Switch 6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3266.000 Y=-46.000 Z=3044.000), Max=(X=-3154.000 Y=66.000 Z=3156.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:C612FE0A4CC7E0B91BDE26AAF4D24190 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0987BE01_2092887598 Label:BP_Door6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=110.000 Z=3000.000), Max=(X=-2800.000 Y=190.000 Z=3500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [ 40]
+ |   |   |   |- Guid:5011C7944BF3E1EA4FAC638B59DF5792 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB0929C101_1138497199 Label:BP_Fan2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=498.000 Y=737.500 Z=3165.000), Max=(X=562.000 Y=1462.500 Z=3215.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 41]
+ |   |   |   |- Guid:512947B24B2E1E3ECC1081BD21575576 BaseClass: NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_401C8360DB0949BE01_1812985649 Label:PointLight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-980.000 Y=-990.000 Z=-490.000), Max=(X=1020.000 Y=1010.000 Z=1510.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 42]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [ 43]
+ |   |   |   |- Guid:5411FF1949C35F3A598AD0BD69C6E231 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000058c07e9c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=64000.000 Z=7785.156), Max=(X=64000.000 Y=89600.000 Z=11791.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 44]
+ |   |   |   |- Guid:548F2705451DA2FC98B90486A2E7ED3F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000fdc49d15 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-64000.000 Z=5639.844), Max=(X=64000.000 Y=-38400.000 Z=10830.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 45]
+ |   |   |   |- Guid:56D32ADD4F5EDC7E9E5678A25C3C90A9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009ec32732 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=12800.000 Z=0.000), Max=(X=38400.000 Y=38400.000 Z=5888.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 46]
+ |   |   |   |- Guid:58FBB0974032C0AE5D96F29333067EF4 BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0929C101_2016764201 Label:DeathWall3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=900.000 Y=1200.000 Z=2950.000), Max=(X=1200.000 Y=2000.000 Z=3050.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 47]
+ |   |   |   |- Guid:5998C1764753667DD627B487E89064A9 BaseClass:/Game/Blueprints/Obstacles/Basic/DeathWall.DeathWall_C NativeClass:/Script/Engine.Actor Name:DeathWall_C_UAID_401C8360DB0929C101_1086483198 Label:DeathWall SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=600.000 Y=1000.000 Z=2950.000), Max=(X=1200.000 Y=1200.000 Z=3050.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 48]
+ |   |   |   |- Guid:59D567B34B74458883F0C086B173ED53 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000000479efcd Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=38400.000 Z=5450.781), Max=(X=-64000.000 Y=64000.000 Z=11130.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 49]
+ |   |   |   |- Guid:5A9B76F04897746AA4EF02ADE6A0C75C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002387b43f Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=12800.000 Z=131.250), Max=(X=-38400.000 Y=38400.000 Z=8019.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 50]
+ |   |   |   |- Guid:5E533D61427B820102A1EDAD9D476A2D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e893856a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-89600.000 Z=5939.844), Max=(X=64000.000 Y=-64000.000 Z=10986.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 51]
+ |   |   |   |- Guid:602563C34E0CD91EAD89ABAE48B48134 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0982BE01_1845743702 Label:RectLight9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4010.000 Y=-840.000 Z=1090.000), Max=(X=-2010.000 Y=1160.000 Z=3090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 52]
+ |   |   |   |- Guid:610D4895424793940603E8A043F0BDE7 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1784239415 Label:BP_ProjectileDestroyZone4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2612.500 Y=-825.000 Z=2767.500), Max=(X=-1687.500 Y=325.000 Z=2772.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- [+] [ 53]
+ |   |   |   |- Guid:611C055D4D999CFE5CD88FAF4B04AB9C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1724917374 Label:BP_ProjectileDestroyZone6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-602.500 Y=-300.000 Z=3722.500), Max=(X=-597.500 Y=1400.000 Z=4197.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 54]
+ |   |   |   |- Guid:6300AA344D7E740451747796C13A1D4F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ada93d64 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-64000.000 Z=5113.281), Max=(X=-38400.000 Y=-38400.000 Z=7863.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 55]
+ |   |   |   |- Guid:647817754841478B7E4EB58985DEE0EA BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007055a5f9 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-89600.000 Z=6572.656), Max=(X=-12800.000 Y=-64000.000 Z=11941.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 56]
+ |   |   |   |- Guid:6603B34D48B0135B5FD8B082B0320A85 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0982BE01_1581212698 Label:BP_Door5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2690.000 Y=-400.000 Z=1800.000), Max=(X=-2610.000 Y=-100.000 Z=2300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |   |- Guid:ED2EFE254CB37ABFDB0407865ADD9582 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0982BE01_1755399700 Label:Switch 5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3056.000 Y=84.000 Z=1824.000), Max=(X=-2944.000 Y=196.000 Z=1936.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- [+] [ 57]
+ |   |   |   |- Guid:677A2BF8450120D0FC0CCEA119B4B7C9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000ce61b913 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=38400.000 Z=1202.344), Max=(X=38400.000 Y=64000.000 Z=8677.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 58]
+ |   |   |   |- Guid:67FBE5FC4EB99B252B69BCA76A25D7F8 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0980BE01_1918500338 Label:BP_ProjectileDestroyZone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3900.000 Y=-1662.500 Z=393.750), Max=(X=-3200.000 Y=-1657.500 Z=1406.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- [+] [ 59]
+ |   |   |   |- Guid:68D00BCA4F55B410044F9D9FBC70652E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000004985b47c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=64000.000 Z=6619.531), Max=(X=-38400.000 Y=89600.000 Z=13197.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 60]
+ |   |   |   |- Guid:6B342451411AED77B796D4837F9CC979 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1809744376 Label:BP_ProjectileDestroyZone8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-600.000 Y=-290.000 Z=4197.500), Max=(X=-200.000 Y=1410.000 Z=4202.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 61]
+ |   |   |   |- Guid:6FA6641747858E98101CB895F7A7EED8 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002cd92eb1 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=38400.000 Z=1284.375), Max=(X=-12800.000 Y=64000.000 Z=7450.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 62]
+ |   |   |   |- Guid:707D0D104A1A6DBFBBD050AD016E1BA7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0 Label:LandscapeStreamingProxy_4_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 63]
+ |   |   |   |- Guid:738C4ED141E18122A2358F84E3951E17 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000089b7cce8 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=12800.000 Z=0.000), Max=(X=-12800.000 Y=38400.000 Z=3609.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 64]
+ |   |   |   |- Guid:74A0691A490380034BA38380F270029A BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1787922561 Label:RectLight21 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3650.000 Y=-1450.000 Z=2090.000), Max=(X=1350.000 Y=3550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 65]
+ |   |   |   |- Guid:7637F5E64AE48B65DC0661880F3278BA BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB097BBE01_1330122449 Label:Switch 1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-726.000 Y=-1466.000 Z=464.000), Max=(X=-614.000 Y=-1354.000 Z=576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:9D6B00CF41615F016EEC7D9BBDBF14C3 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB097BBE01_1182011448 Label:BP_Door SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1200.000 Y=-1690.000 Z=400.000), Max=(X=-900.000 Y=-1610.000 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [ 66]
+ |   |   |   |- Guid:7644B38E49943AEA928F7980DBD39FF5 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000061d8a24a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=64000.000 Z=5080.469), Max=(X=-12800.000 Y=89600.000 Z=13166.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 67]
+ |   |   |   |- Guid:79A1652241A319C3E2BEF68A979FCD6F BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1944109596 Label:RectLight14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-1350.000 Z=2690.000), Max=(X=-2000.000 Y=650.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 68]
+ |   |   |   |- Guid:7BC3BAF943D8FA2AF54C5AA2A29FA362 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098FBE01_1602852018 Label:RectLight17 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4800.000 Y=-480.000 Z=2490.000), Max=(X=-800.000 Y=3520.000 Z=6490.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 69]
+ |   |   |   |- Guid:7EB577C1484BEBBD4B5D77AF6A9FD488 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000009100159d Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=12800.000 Z=5872.656), Max=(X=89600.000 Y=38400.000 Z=13596.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 70]
+ |   |   |   |- Guid:815A27B240A0C1A12D2ADC811F72CC30 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000cf9074b0 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-12800.000 Z=0.000), Max=(X=38400.000 Y=12800.000 Z=3310.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 71]
+ |   |   |   |- Guid:81C792BA4BF473C75BC0EA8C3BFB6386 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1730345559 Label:RectLight19 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2450.000 Y=-2450.000 Z=2090.000), Max=(X=2550.000 Y=2550.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 72]
+ |   |   |   |- Guid:82111EBA4245874D247823848B4F1385 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0 Label:LandscapeStreamingProxy_4_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 73]
+ |   |   |   |- Guid:8246F9C84C13BD3D8E1D528D1EC54C79 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000076832c01 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-38400.000 Z=9125.781), Max=(X=89600.000 Y=-12800.000 Z=12972.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 74]
+ |   |   |   |- Guid:838F3A1D41B18E74E470A3BF948E5AD0 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_RotatingPlatform.BP_RotatingPlatform_C NativeClass:/Script/Engine.Actor Name:BP_RotatingPlatform_C_UAID_401C8360DB0992BE01_2138090564 Label:BP_RotatingPlatform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1087.500 Y=497.500 Z=2993.750), Max=(X=287.500 Y=622.500 Z=3006.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 Parent:FD5738E04A5D92C8E9F46193BCB6EE75
+ |   |   |   |- Guid:A46EEE084664DB59D2D2129CDDBF1AE7 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB090AC101_1189290728 Label:Switch 11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=344.000 Y=-256.000 Z=3804.000), Max=(X=456.000 Y=-144.000 Z=3916.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:A76ED4F447BC1CF9182EF48A1B672E90 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0992BE01_1896129563 Label:Switch 10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=358.223 Y=1237.472 Z=3817.640), Max=(X=470.223 Y=1349.472 Z=3929.640) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:FD5738E04A5D92C8E9F46193BCB6EE75 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Platform.BP_Platform_C NativeClass:/Script/Engine.Actor Name:BP_Platform_C_UAID_401C8360DB0909C101_2113810551 Label:Raise-Rotate-Platform SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-452.500 Y=497.500 Z=1961.250), Max=(X=-327.500 Y=622.500 Z=2998.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 75]
+ |   |   |   |- Guid:85A1405B41C50D08F8434E991DAAC9DB BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000002a2da2ce Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=12800.000 Z=-0.781), Max=(X=12800.000 Y=38400.000 Z=1284.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 76]
+ |   |   |   |- Guid:87AD541C45D7769AD130879D753E2E45 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000077f7731e Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=64000.000 Z=2653.906), Max=(X=38400.000 Y=89600.000 Z=9796.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 77]
+ |   |   |   |- Guid:8FE63B434849D761E62B0FAE6CFC6742 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000809b5cf8 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=38400.000 Z=9205.469), Max=(X=89600.000 Y=64000.000 Z=14989.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 78]
+ |   |   |   |- Guid:904ABE1C4A39F6244FCE0DACE6F83751 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000923b1f94 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=-12800.000 Z=870.312), Max=(X=64000.000 Y=12800.000 Z=9125.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 79]
+ |   |   |   |- Guid:904AC1574D3D86CA3F4393BBCDA9E6F1 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097FBE01_1380543158 Label:RectLight4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3860.000 Y=-4630.000 Z=-620.000), Max=(X=140.000 Y=-630.000 Z=3380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 80]
+ |   |   |   |- Guid:92451E4545D9B4D65D594C897520AFFE BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000249b061a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-38400.000 Z=0.000), Max=(X=-12800.000 Y=-12800.000 Z=5260.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 81]
+ |   |   |   |- Guid:925E49854841EE710F0D648BCA9515F2 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1484924412 Label:BP_ProjectileDestroyZone3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2642.500 Y=-422.500 Z=1787.500), Max=(X=-2637.500 Y=-97.500 Z=2312.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Projectile Destroy Zones FolderGuid:93766B10495626F43B35C7A63697B15E
+ |   |   |- [+] [ 82]
+ |   |   |   |- Guid:93248EAF43A227F32DED2E9F3F7B8C92 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB097FBE01_1418753159 Label:RectLight5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4850.000 Y=-4620.000 Z=-620.000), Max=(X=-850.000 Y=-620.000 Z=3380.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 83]
+ |   |   |   |- Guid:932568234ECC23E19F09B4A8CB3E252A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000008074caed Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-89600.000 Z=4621.094), Max=(X=12800.000 Y=-64000.000 Z=11442.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 84]
+ |   |   |   |- Guid:95C1E4CE42326EBC921163916DBD9517 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0982BE01_1302595695 Label:RectLight8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-6050.000 Y=-2750.000 Z=90.000), Max=(X=-1050.000 Y=2250.000 Z=5090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [ 85]
+ |   |   |   |- Guid:962D6BE34E7839A2A94E65B8F6CE5D43 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-240.000 Y=-40.000 Z=190.000), Max=(X=-160.000 Y=40.000 Z=374.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 86]
+ |   |   |   |- Guid:9818F7E546C6A3993192FA84B048DB6A BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000025e68ee6 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-38400.000 Z=1038.281), Max=(X=-38400.000 Y=-12800.000 Z=8925.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 87]
+ |   |   |   |- Guid:994EFA0F4190788FB2F0E3A5ED6C6091 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0992BE01_1809738562 Label:RectLight22 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3650.000 Y=-2430.000 Z=2090.000), Max=(X=1350.000 Y=2570.000 Z=7090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 88]
+ |   |   |   |- Guid:9CB022554C5BE7B58F3B4CB9AC08115A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1682219558 Label:BP_ProjectileDestroyZone11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-500.000 Y=-392.500 Z=3787.500), Max=(X=-300.000 Y=-387.500 Z=4112.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 89]
+ |   |   |   |- Guid:9CBBDFD8486812AAE8770CB093DB7460 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0 Label:LandscapeStreamingProxy_3_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 90]
+ |   |   |   |- Guid:9D1AAC1C44C967DA67BFE1855888E6B9 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000005ade2593 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=12800.000 Z=3900.781), Max=(X=-64000.000 Y=38400.000 Z=10327.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 91]
+ |   |   |   |- Guid:A094EFD842C29193F3CF828F922AD58C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000002ff7cbc Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-64000.000 Z=5449.219), Max=(X=-64000.000 Y=-38400.000 Z=8761.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 92]
+ |   |   |   |- Guid:A0BEE913467B787061A3FCBD13D89F73 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000b1d9170c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-38400.000 Z=0.781), Max=(X=38400.000 Y=-12800.000 Z=6920.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 93]
+ |   |   |   |- Guid:A1B58B714367A2E4145D728993CF16AC BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000047fd3b2b Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=-89600.000 Z=7269.531), Max=(X=-64000.000 Y=-64000.000 Z=12157.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 94]
+ |   |   |   |- Guid:A344A312417AA4DAB3863D85A6EACA25 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000faffa43c Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X1_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12800.000 Y=-89600.000 Z=4950.781), Max=(X=38400.000 Y=-64000.000 Z=8967.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 95]
+ |   |   |   |- Guid:A653EAAA479703688EFD89BF5993FD8C BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000456f111a Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-12800.000 Z=5091.406), Max=(X=89600.000 Y=12800.000 Z=11586.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [ 96]
+ |   |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 97]
+ |   |   |   |- Guid:AC3388C149420E5F0AE6C2B21F1A0D69 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1479799838 Label:BP_ProjectileDestroyZone13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=307.500 Y=1200.000 Z=3800.000), Max=(X=312.500 Y=1400.000 Z=4100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 98]
+ |   |   |   |- Guid:AE8202C64FAF7491058D709DBD9A7E88 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1310346055 Label:BP_DisableShootZone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2597.500 Y=-765.000 Z=1790.000), Max=(X=-1722.500 Y=285.000 Z=1810.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [ 99]
+ |   |   |   |- Guid:AED54D3E490C3E7C9C2A4CA06CBD312B BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0980BE01_2117210340 Label:RectLight7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-5540.000 Y=-2930.000 Z=-610.000), Max=(X=-1540.000 Y=1070.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [100]
+ |   |   |   |- Guid:AEFE58524EB02A574182C1AC85D76E6D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000be4f81c5 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=-89600.000 Z=6608.594), Max=(X=-38400.000 Y=-64000.000 Z=12658.594) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [101]
+ |   |   |   |- Guid:B033CFCB4C3236781E4FB79744B48DDC BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1689187592 Label:RectLight10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3100.000 Y=-1700.000 Z=1390.000), Max=(X=-1100.000 Y=300.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [102]
+ |   |   |   |- Guid:B4462E9349E4C0A56D2E3F9F561B1C9D BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a7e8df26 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y0 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-12800.000 Z=-100.000), Max=(X=12800.000 Y=12800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [103]
+ |   |   |   |- Guid:B5EF0E63448E087F54597989CA4E932E BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0987BE01_1748126593 Label:RectLight11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3110.000 Y=-810.000 Z=1090.000), Max=(X=-1110.000 Y=1190.000 Z=3090.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [104]
+ |   |   |   |- Guid:BFC0CFB74CCE54FF906EC281013602C5 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1638644557 Label:BP_ProjectileDestroyZone10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-500.000 Y=1487.500 Z=3787.500), Max=(X=-300.000 Y=1492.500 Z=4112.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [105]
+ |   |   |   |- Guid:C107B6DF4889256CA03FC4B623CDB5FC BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e95cf541 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-1_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-38400.000 Y=-64000.000 Z=1993.750), Max=(X=-12800.000 Y=-38400.000 Z=8566.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [106]
+ |   |   |   |- Guid:C4D121FD4E5A65B181B7808504B64064 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_ProjectileDestroyZone.BP_ProjectileDestroyZone_C NativeClass:/Script/Engine.Actor Name:BP_ProjectileDestroyZone_C_UAID_401C8360DB098DBE01_2145609662 Label:BP_ProjectileDestroyZone5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2100.000 Y=1017.500 Z=3500.000), Max=(X=-1900.000 Y=1022.500 Z=3800.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [107]
+ |   |   |   |- Guid:C6104E604E796D22C97031BCDB5FCAF0 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_000000007e3ba091 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X2_Y1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=38400.000 Y=12800.000 Z=2264.062), Max=(X=64000.000 Y=38400.000 Z=9232.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [108]
+ |   |   |   |- Guid:C8A468EA4A070CFDA34562BE0D3FADFE BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB092BC101_1120459557 Label:RectLight24 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1400.000 Y=640.000 Z=3580.000), Max=(X=600.000 Y=2640.000 Z=5580.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [109]
+ |   |   |   |- Guid:CBF30B5F4829A0CC5F0CCDA2D0B4267A BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1357457058 Label:BP_DisableShootZone4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1887.500 Y=-187.500 Z=2090.000), Max=(X=-1712.500 Y=-12.500 Z=2110.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [110]
+ |   |   |   |- Guid:CD096C7843C481E65623A195FC42BCFF BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098CBE01_1956028480 Label:RectLight15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4060.000 Y=-300.000 Z=2690.000), Max=(X=-2060.000 Y=1700.000 Z=4690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [111]
+ |   |   |   |- Guid:D1790BD644D946F3809784BB5108DA71 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB098EBE01_1132938841 Label:RectLight16 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3000.000 Y=200.000 Z=2790.000), Max=(X=-1000.000 Y=2200.000 Z=4790.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [112]
+ |   |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [113]
+ |   |   |   |- Guid:D50A561D43BDC3723FF9B2A5CF772454 BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0980BE01_2077686339 Label:RectLight6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-5550.000 Y=-4660.000 Z=-610.000), Max=(X=-1550.000 Y=-660.000 Z=3390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting/Created Lights FolderGuid:1663448B4ECF8E9D0201A2842EFFC228
+ |   |   |- [+] [114]
+ |   |   |   |- Guid:D75E300443DA7F0DA47AAD9D9B3AABED BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB0982BE01_1416147697 Label:Switch 4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3606.000 Y=-996.000 Z=1044.000), Max=(X=-3494.000 Y=-884.000 Z=1156.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |   |- Guid:F56298B845E23D212D3B68BF30ABC13C BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0982BE01_1380150696 Label:BP_Door4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3700.000 Y=-890.000 Z=400.000), Max=(X=-3400.000 Y=-810.000 Z=900.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |- [+] [115]
+ |   |   |   |- Guid:D97B3E514D1673FB3F1DAE9393134162 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000e6f72a11 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-3_Y3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-89600.000 Y=64000.000 Z=8263.281), Max=(X=-64000.000 Y=89600.000 Z=13605.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [116]
+ |   |   |   |- Guid:D9A3AB1E4D3C3A80F33FB7B5E46DC8CD BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Door.BP_Door_C NativeClass:/Script/Engine.Actor Name:BP_Door_C_UAID_401C8360DB0990BE01_1755540197 Label:BP_Door7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1590.000 Y=400.000 Z=3000.000), Max=(X=-1510.000 Y=700.000 Z=3500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Doors FolderGuid:2DC0E00B4C402F3D9F451C86F0CE9604
+ |   |   |   |- Guid:DDAB7E2D49EF06B488AB3A8876DF4511 BaseClass:/Game/Blueprints/Obstacles/Switch/BP_Switch.BP_Switch_C NativeClass:/Script/Engine.Actor Name:BP_Switch_C_UAID_401C8360DB098EBE01_1113499839 Label:Switch 8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2056.000 Y=1584.000 Z=3534.000), Max=(X=-1944.000 Y=1696.000 Z=3646.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Switches FolderGuid:93751D6A4BF317EBD262259DA423C80C
+ |   |   |- [+] [117]
+ |   |   |   |- Guid:DB588182456AA97D178728BDD906EA8F BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB0990BE01_1655135196 Label:BP_Fan SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3145.000 Y=1048.000 Z=3475.000), Max=(X=-2855.000 Y=1112.000 Z=3525.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [118]
+ |   |   |   |- Guid:E6C4C89747E65FCDCCFD648F081F47C2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0 Label:LandscapeStreamingProxy_3_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [119]
+ |   |   |   |- Guid:E94AA2814B807AD72A3C8C8201C8737F BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_0000000027100cbc Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y-2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=-64000.000 Z=106.250), Max=(X=12800.000 Y=-38400.000 Z=8805.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [120]
+ |   |   |   |- Guid:EFE127DE4AC87B71A77BF185DB0CE52E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000a0644c05 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X3_Y-3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=64000.000 Y=-89600.000 Z=7522.656), Max=(X=89600.000 Y=-64000.000 Z=13553.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [121]
+ |   |   |   |- Guid:F110D73040E18025284B60A5E38BE3AA BaseClass:/Game/Blueprints/Obstacles/Basic/BP_Fan.BP_Fan_C NativeClass:/Script/Engine.Actor Name:BP_Fan_C_UAID_401C8360DB092AC101_1706458380 Label:BP_Fan4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=908.750 Y=1875.000 Z=3528.000), Max=(X=1271.250 Y=1925.000 Z=3592.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [122]
+ |   |   |   |- Guid:F1A4F7294DDFF55AAAF707A9053B3DD1 BaseClass:/Game/Blueprints/Obstacles/Basic/BP_DisableShootZone.BP_DisableShootZone_C NativeClass:/Script/Engine.Actor Name:BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1336453056 Label:BP_DisableShootZone2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2187.500 Y=-787.500 Z=1890.000), Max=(X=-2012.500 Y=-612.500 Z=1910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Stage/Obstacles/Disable Shoot Zones FolderGuid:B727038A4DD7160A43D56C9185509398
+ |   |   |- [+] [123]
+ |   |   |   |- Guid:F28AE21E43BC5CB958703B8708F1A64E BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000462530dd Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X0_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-12800.000 Y=38400.000 Z=100.000), Max=(X=12800.000 Y=64000.000 Z=5252.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [124]
+ |   |   |   |- Guid:F4E81540458864929650D1B8E8566222 BaseClass: NativeClass:/Script/Engine.WorldPartitionHLOD Name:HLOD0_Instancing_00000000195576f6 Label:HLOD0_Instancing/OpenWorld_MainGrid_L0_X-2_Y2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-64000.000 Y=38400.000 Z=3219.531), Max=(X=-38400.000 Y=64000.000 Z=9172.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:1 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:HLOD/HLOD0_Instancing FolderGuid:C11A5F59487C0DB2AA58CABA5DEDB377
+ |   |   |- [+] [125]
+ |   |   |   |- Guid:F64C0D7C48C0FA72A0D5E290C298F30B BaseClass: NativeClass:/Script/Engine.RectLight Name:RectLight_UAID_401C8360DB0990BE01_1586620195 Label:RectLight18 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3030.000 Y=-300.000 Z=2910.000), Max=(X=-1030.000 Y=1700.000 Z=4910.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-1135.000), Max=(X=25200.000 Y=25200.000 Z=7090.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/MainStage
+----------------------------------------------------------------------------------------------------------------
+MainStage - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of MainStage Persistent Level
+ |- Always loaded Actor Count: 151 
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1310346055
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/D2/MQ8RNY618E0ON65HL590UC
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1336453056
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/YL/ESXFU8DF7MMQO1MYQK0E5O
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1346619057
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/7S/BXAOANB301IGY7YLHYTQZ0
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1357457058
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/L8/8FKMVQ3RE3IZH23LJKS4GS
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1663424413
+ |- Actor Package: /Game/__ExternalActors__/MainStage/F/4Q/OU65KNZ6R31EG2QDE6URK7
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1667067414
+ |- Actor Package: /Game/__ExternalActors__/MainStage/E/53/I9L5GGHJ90MEHOJ6LRMGKN
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097BBE01_1182011448
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/E7/UIGZWGL9XT4RDCPQHJ0D94
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097EBE01_2111959979
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/XG/0LN2DBX5SI7FBCSY54U2V8
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097FBE01_1357557157
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/AU/KV18HW19PINIPKT93N9VXV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0982BE01_1380150696
+ |- Actor Package: /Game/__ExternalActors__/MainStage/6/UP/L7S7AWHGWXQMTGGFXV241Y
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0982BE01_1581212698
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/9A/PETMXT68LSW3CX93JHK5NU
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0987BE01_2092887598
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/DQ/X71FCKVUVCSA56XZ26ZYCH
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0990BE01_1755540197
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/IK/108O3XLRH2SRX97WV469FP
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0992BE01_1114048554
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/08/EZK0D2NWJ4S2D7QPCSLR99
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB0929C101_1138497199
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/QK/8BLIR20Y85ODZFWDM42NXN
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB092AC101_1654598379
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/GZ/G4HRYQ3XHTI2XORI2WJC88
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB092AC101_1706458380
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/T3/AGP37HO2MT0QDE8F7FL914
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB0990BE01_1655135196
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/CQ/43RASH3BTN7PJWOQULW512
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB0909C101_2113810551
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/M2/WE6FXJB43QIM7M6T0GCFBH
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB0926C101_1246679660
+ |- Actor Package: /Game/__ExternalActors__/MainStage/6/5J/BD4QHWFJ7TW1DG1VC7666S
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB098DBE01_1789677658
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/N3/Y4P9ZY3A95J6KSP8UI57VB
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0926C101_1202555659
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/WC/KCAMHTBHYINLYLX3ZCZOS9
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1479799838
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/2D/DVU8OFIXJVO3L9FBN2V0PO
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1542743840
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/A5/8JXNNLDT9GQXELLB1ZN9GY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0980BE01_1918500338
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/PY/ULGNP74P6JCW9C8VPBUDVF
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0982BE01_1817694701
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/TO/P1GHZ0UJW92YF02YH1B9E0
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1484924412
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/TV/E2S4BVSE1CXUK561CW3QPE
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1784239415
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/LN/60AF1V0VBCKHYRESOYGXPG
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB098DBE01_2145609662
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/MS/3B5I4G24W704HASOPPILNW
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1724917374
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/9L/8Z3EUK7S0KX4T1TXNNRFRE
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1766518375
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/HJ/MHSTAE1EMN8JJCBIZU81WD
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1809744376
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/5B/PKX9JILRF3YIBUO3ABY3CK
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1845947377
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/CS/SGFLDTT9DU5IH2HF7Q0KOA
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1638644557
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/F4/DHHI3D6XCRJWUO28XD3722
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1682219558
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/KJ/SW6FUDC8GU2N5V9VKEQDEV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_RotatingPlatform_C_UAID_401C8360DB0992BE01_2138090564
+ |- Actor Package: /Game/__ExternalActors__/MainStage/6/UG/29M9FABEQ28DN1OJROSFJ7
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB090AC101_1189290728
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/N4/6AFM2MY1LEXWK05XUQQNOW
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0926C101_1281372661
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/GQ/T4H9Y056ZW8GAU092B8X3C
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097BBE01_1330122449
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/GO/86TWJQHI00EVFNPU9WMJ23
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097EBE01_2130496980
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/MV/N4UFZ5HKFEMQTQACO2GBRA
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097FBE01_1465013160
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/7X/AWMW1MGDKGF6QOAH0P4G9F
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0982BE01_1416147697
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/GR/LWBUU9B6SQD452UEGN4DGE
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0982BE01_1755399700
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/QQ/BT2LGIBFR50WN69JREPSGM
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0987BE01_2037401597
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/BY/WOJUAO08VYDB2QIU86N0KY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB098DBE01_1901089659
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/6L/JHTPIIRLCKLPFH46HFHSUT
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB098EBE01_1113499839
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/X5/TCECASL3FTFADI8GCUFG1M
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0992BE01_1533495556
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/55/KVF25205QYN01JGL3UTFTE
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0992BE01_1896129563
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/A8/NJ5W38I5ZVWNHDQOYKNXRO
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.Brush_0
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.CombinedTransformGizmoActor_34
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.CombinedTransformGizmoActor_45
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0925C101_2119443481
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/UY/1UR71QS657HJFMPAY7I2XV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0929C101_1086483198
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/Y2/JW97IF66R4VTK4MAFCLDS5
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0929C101_2016764201
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/59/MRQFPLSC4UJ80AK64F6HYM
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/JI/4KYOJIABDVSDVKE1EUP7TG
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/W5/QNWADXCL40CT1L46K3FXNY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000002ff7cbc
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/JL/ACDFQHP02JRCCJOU3VA6DD
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000000479efcd
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/OW/PILDR6L99MLG2MKPHQ50PF
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000195576f6
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/IC/AJ0GXH4P163GATDFCDIA99
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000002387b43f
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/8N/G39V48Z2XLZWAQQ2CQFV9W
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000249b061a
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/EK/UNDFRMTJXFW1I71H1O3ICG
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000025e68ee6
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/IQ/Z6VWWJXRO5WFLPRBN7M2KA
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000027100cbc
+ |- Actor Package: /Game/__ExternalActors__/MainStage/C/HB/K2KGMV9SASF9O0P41G22JM
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000002a2da2ce
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/OJ/A5PG75OUWOE4GTCWTZPCX5
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000002cd92eb1
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/XH/YD8RD3U0LKD8DRQWDI41IH
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000326281e7
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/EF/P4AX8V2OBZAN96DFNCGNON
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000456f111a
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/0H/1GNCM0PD21CJL84XG4RREP
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000462530dd
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/8S/WHKQAFX36FNCKCUICH7OGP
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000047fd3b2b
+ |- Actor Package: /Game/__ExternalActors__/MainStage/E/IC/4IFB5UMZYL3WKJ1O18M47L
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000004985b47c
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/US/6WDW0RDS4EGW390812W4UV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000004fc1faed
+ |- Actor Package: /Game/__ExternalActors__/MainStage/6/NO/XUU421QAG9127WB1BH8WSI
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000058c07e9c
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/03/EYWR6Z4K32OS9S3L6K970A
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000005ade2593
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/IF/L7AGZPLR3YHJL8J3XZP68Y
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000061048ba5
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/ST/L69AM1JNN6IKU3NE45VP8G
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000061d8a24a
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/6Q/KJO4QZJ3Z790NASIL9ECMZ
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000007055a5f9
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/3Q/WI8J7SH7ZMRQNXZ826LN8Q
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000075fc1435
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/CM/LMZSXX1U54419L9YF5BG66
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000076832c01
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/F2/VQ2J7U25FZ44HZ5SA4UG54
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000077f7731e
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/GX/PSBS8065URMOT4VW6W81ML
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000007a1ec134
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/20/6SR8C9QWQQXOZ1BLC5PB8H
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000007e3ba091
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/3L/0T7KXAJUBOVSMD6ASPSCBR
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000007ee1c9e3
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/BI/VV9PP68NB7DD5Y4YJ7ZDJT
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000008074caed
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/S5/8KI0TBTT8RF5XOLGDJNSVF
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000808a2d8c
+ |- Actor Package: /Game/__ExternalActors__/MainStage/C/7M/LDKZ0K294BV6373QC9X8E9
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000809b5cf8
+ |- Actor Package: /Game/__ExternalActors__/MainStage/E/QI/YJHJTBZ3VLNX6FQC25RZ9I
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000008429cf49
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/MX/HPM87XIA8M3J7SH6F1JI8Q
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_0000000089b7cce8
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/UF/Z627LIOES2KAI6C219R1O6
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000009100159d
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/BH/OCKDEXKU9DFXYWBNO1GPGP
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000923b1f94
+ |- Actor Package: /Game/__ExternalActors__/MainStage/E/AU/E4KMAKIXGEX3T8BF296T2P
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_000000009ec32732
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/LD/LDKFJRYGJWLTE6PNFB2MGJ
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000a0644c05
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/O4/FUAADFG2F2RZN1N1N7UQVM
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000a7e8df26
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/0R/3XOESCWBGBNOP22RX6QQ55
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000ada93d64
+ |- Actor Package: /Game/__ExternalActors__/MainStage/C/UB/EHO89M4EJ9EF9TQ2FEOUZR
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000b1d9170c
+ |- Actor Package: /Game/__ExternalActors__/MainStage/9/WT/G2ICI3VHDEZIIG3OPIW2YD
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000be4f81c5
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/YI/7H6HR7HJKJBZ57OF3H2TCV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000ce61b913
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/B2/XNAO8DKO1ERDHW3IQUA7YT
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000cf9074b0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/20/U40S4KB6PXY6DLJCFE99DE
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000e6f72a11
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/HE/H2847TLSTO9LFWMX48K7MY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000e893856a
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/13/WODYVYXNOWYX9AJ6W7IIIB
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000e95cf541
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/P8/494HO2QL8DI5I15QOJGA5B
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000e9f6f481
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/J4/NYGQJ5D1FVN7JMC1UB8IUD
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000ed334d9f
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/Q1/AWRNVEEG15IHSMDB6X1XON
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000eef772e0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/Y9/G45HCFC7UYWVHMN5PD6KS4
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000faffa43c
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/QS/ZOR6F16CHZIKZB7PP94TP9
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.HLOD0_Instancing_00000000fdc49d15
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/TY/URXPUT7UHI9F56OPCCJNI1
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/VS/P1O4XMRZG8DCQWFJEI13FL
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/JK/LGLSXXUCXN7OQSCE96FQ3O
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/AB/IY5NH1UI6HXYSH9I7ZZH3U
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/HM/K59H5VMKI5D8JKT7TAJOEZ
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/YI/ZD1C7LNF764M4WQVEJGN0W
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.PlayerStart_UAID_F02F74551BF5599B01_1153002503
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/AU/VHPUVYD8P2D2YNP9SDXFP9
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.PointLight_UAID_401C8360DB0949BE01_1812985649
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/UK/LHS1WLRXNX92QX92CK8UTA
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.PreviewGeometryActor_34
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.PreviewMeshActor_34
+ |- Actor Package: /Game/MainStage
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB092AC101_1547946378
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/RR/QXEFJZF7XOXA8VMSDQW7PU
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB092BC101_1120459557
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/F4/BRPHZ5VEITPFA8ONXJVQYX
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB094BBE01_1686907002
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/T8/JQ2T8HW8W3ZV0Q60SLZDUY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB094BBE01_1879580003
+ |- Actor Package: /Game/__ExternalActors__/MainStage/F/36/72U73AZOJ85NHQBBU2BPZY
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097EBE01_1810441978
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/GO/B6W7R4R8ELTSESW6EGEVAT
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097FBE01_1380543158
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/6L/EJS9ABJMZDW30KSH9V1SNL
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097FBE01_1418753159
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/GL/ZYUZQYOV5FOI0OF3TH3IHU
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0980BE01_2077686339
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/V5/JNV28GX5T35FOJ1BTI0CHR
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0980BE01_2117210340
+ |- Actor Package: /Game/__ExternalActors__/MainStage/C/3U/DW9JSIK45RK2K41F3Q3BVL
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0982BE01_1302595695
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/LO/OJPSUO1SZCY7SW1383D35M
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0982BE01_1845743702
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/BJ/I8AVMFPM7LI70B1IJ3VVX0
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1689187592
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/05/JVT0E67UOE7EHNS6ULY8H1
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1748126593
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/SI/GF5H8K6SMWQS0IN27OE23I
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1801012594
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/R5/FKLODLMPM5CY33ITWDXZA7
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1846448595
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/N6/QWMWF0NU4LLE6O5LRDOGI3
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1944109596
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/6U/57RKQNWNWPQZS5ADRXEKNK
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098CBE01_1956028480
+ |- Actor Package: /Game/__ExternalActors__/MainStage/0/UP/U5N7986JRVF8KP8JYU6NJK
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098EBE01_1132938841
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/3P/IH6QEN98YZKCXFZ251LX5B
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098FBE01_1602852018
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/94/U7VVN6EXF7SZ4A5JLI0SKK
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0990BE01_1586620195
+ |- Actor Package: /Game/__ExternalActors__/MainStage/8/SE/F59WAY9SV0JSUE6KPJMW3V
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1730345559
+ |- Actor Package: /Game/__ExternalActors__/MainStage/1/5E/B4H20DQKNFBEH97HA233A1
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1781411560
+ |- Actor Package: /Game/__ExternalActors__/MainStage/2/WF/OXDF0R7CZB0RDX62P4IB2O
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1787922561
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/8Y/E3W7D5QTE2F9OPNAXQID96
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1809738562
+ |- Actor Package: /Game/__ExternalActors__/MainStage/A/0W/H91FB6ESHJUTWLRSJHJQPT
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762
+ |- Actor Package: /Game/__ExternalActors__/MainStage/E/ZY/C6K2UF4WX20YHLG6CINGBV
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759
+ |- Actor Package: /Game/__ExternalActors__/MainStage/D/JI/BF8OTYNUHFP9T3OI0V2IOJ
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.SpotLight_UAID_401C8360DB0982BE01_1273305694
+ |- Actor Package: /Game/__ExternalActors__/MainStage/7/26/E6BS69KFT6NDS5AXC18Q9W
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB0948BE01_2004570471
+ |- Actor Package: /Game/__ExternalActors__/MainStage/B/DQ/ZPUGA6LC1V0WVZ130DA0J4
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB094BBE01_1884912004
+ |- Actor Package: /Game/__ExternalActors__/MainStage/4/92/6IS32LRVFUDTNSYBQCFYBO
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB098BBE01_1248918303
+ |- Actor Package: /Game/__ExternalActors__/MainStage/6/DI/JUP9GS704LAOQYCD9DMS2Z
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760
+ |- Actor Package: /Game/__ExternalActors__/MainStage/3/2Y/3RDUJ3W2WDKINR6YB0IGZ9
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/MainStage/5/QQ/DNJY18J2JXNGY0YV7REP4E
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927
+ |- Actor Package: /Game/__ExternalActors__/MainStage/C/2F/UYLXQVAK6Z1U4QLZ1KBM5K
+ |- Actor Path: /Game/MainStage.MainStage:PersistentLevel.WorldSettings
+ |- Actor Package: /Game/MainStage
+
+----------------------------------------------------------------------------------------------------------------
+MainStage - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 25600
+      World Bounds: IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-1135.000), Max=(X=25200.000 Y=25200.000 Z=7090.000)
+     Loading Range: 76800.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 2
+ |- Level  0: Cell Count    1 | Cell Size   25600 | Actor Count   84 (100.0%)
+ |- Level  1: Cell Count    0 | Cell Size   51200 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+ |- [+] Content of Cell MainStage_MainGrid_L0_X0_Y0 (AT569ERF3UKLH2XIB9865Z9XW)
+ |   |- Actor Count: 84
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB092AC101_1547946378
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/RR/QXEFJZF7XOXA8VMSDQW7PU
+ |   |- Actor Instance Guid: 0342151B47E98C91C79C628C5381FE71
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0926C101_1202555659
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/B/WC/KCAMHTBHYINLYLX3ZCZOS9
+ |   |- Actor Instance Guid: 04DE690C41511C3CDC78DAB8FC3DF523
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB092AC101_1654598379
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/B/GZ/G4HRYQ3XHTI2XORI2WJC88
+ |   |- Actor Instance Guid: 04E8995F43364E7D09A1D2A305BDC31A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1346619057
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/9/7S/BXAOANB301IGY7YLHYTQZ0
+ |   |- Actor Instance Guid: 09F9EDCC4E9A22EA4FC681847CADAC1C
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB098DBE01_1789677658
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/N3/Y4P9ZY3A95J6KSP8UI57VB
+ |   |- Actor Instance Guid: 101FE8314B10F656A5F1A79899F1C982
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB094BBE01_1884912004
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/92/6IS32LRVFUDTNSYBQCFYBO
+ |   |- Actor Instance Guid: 132045494259EE8F0C212F9A0DFCC2E8
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB094BBE01_1879580003
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/F/36/72U73AZOJ85NHQBBU2BPZY
+ |   |- Actor Instance Guid: 1843C24A49324499FCE986A017A20D47
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1781411560
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/WF/OXDF0R7CZB0RDX62P4IB2O
+ |   |- Actor Instance Guid: 1B34C19D4F3A1528108EFEBBE7F53CD4
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097EBE01_1810441978
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/GO/B6W7R4R8ELTSESW6EGEVAT
+ |   |- Actor Instance Guid: 1B491A7643B5B8B5A23D819DB1C97C51
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097EBE01_2130496980
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/MV/N4UFZ5HKFEMQTQACO2GBRA
+ |   |- Actor Instance Guid: 1C07CFC245E2E64FF9DB578C45F84F01
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0925C101_2119443481
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/UY/1UR71QS657HJFMPAY7I2XV
+ |   |- Actor Instance Guid: 22FE01F44C4A221534E37689C150385A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0926C101_1281372661
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/GQ/T4H9Y056ZW8GAU092B8X3C
+ |   |- Actor Instance Guid: 23E083E9421E49A11EFDA99758A76ADC
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.SpotLight_UAID_401C8360DB0982BE01_1273305694
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/26/E6BS69KFT6NDS5AXC18Q9W
+ |   |- Actor Instance Guid: 24361F9B498D3554C159078E666C00C2
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1846448595
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/N6/QWMWF0NU4LLE6O5LRDOGI3
+ |   |- Actor Instance Guid: 24A8F0AA441EB96A297331B7925325A6
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1845947377
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/CS/SGFLDTT9DU5IH2HF7Q0KOA
+ |   |- Actor Instance Guid: 254CA8C14DB0E6AC14E622A27ECE762D
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0992BE01_1533495556
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/55/KVF25205QYN01JGL3UTFTE
+ |   |- Actor Instance Guid: 2A82B1854AE85A747240C89A1190CF85
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1667067414
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/E/53/I9L5GGHJ90MEHOJ6LRMGKN
+ |   |- Actor Instance Guid: 2AC721244A3DB4EC30275184BB0963BD
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1766518375
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/HJ/MHSTAE1EMN8JJCBIZU81WD
+ |   |- Actor Instance Guid: 2B461E494B9F94A140AC77815385DFFD
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097FBE01_1465013160
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/7X/AWMW1MGDKGF6QOAH0P4G9F
+ |   |- Actor Instance Guid: 2FC334494C7A4EEE23DDD1B509196B93
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1542743840
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/A5/8JXNNLDT9GQXELLB1ZN9GY
+ |   |- Actor Instance Guid: 31017BC54DD9C912EAFD94A1A7C1B55E
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1801012594
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/R5/FKLODLMPM5CY33ITWDXZA7
+ |   |- Actor Instance Guid: 31D8865448414A50801741A30CDF685F
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0986BE01_1663424413
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/F/4Q/OU65KNZ6R31EG2QDE6URK7
+ |   |- Actor Instance Guid: 3AF51C3042FFCC52560173BC93480FD7
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0982BE01_1817694701
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/TO/P1GHZ0UJW92YF02YH1B9E0
+ |   |- Actor Instance Guid: 41FD67F64D889B33A4A382AA9393CF2D
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB094BBE01_1686907002
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/T8/JQ2T8HW8W3ZV0Q60SLZDUY
+ |   |- Actor Instance Guid: 4974A90C4707F58056EBC0809AB1DDBF
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0987BE01_2037401597
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/BY/WOJUAO08VYDB2QIU86N0KY
+ |   |- Actor Instance Guid: 4EC5556D47AEF2F40D67C995FFEE0916
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB0929C101_1138497199
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/QK/8BLIR20Y85ODZFWDM42NXN
+ |   |- Actor Instance Guid: 5011C7944BF3E1EA4FAC638B59DF5792
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.PointLight_UAID_401C8360DB0949BE01_1812985649
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/UK/LHS1WLRXNX92QX92CK8UTA
+ |   |- Actor Instance Guid: 512947B24B2E1E3ECC1081BD21575576
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0929C101_2016764201
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/0/59/MRQFPLSC4UJ80AK64F6HYM
+ |   |- Actor Instance Guid: 58FBB0974032C0AE5D96F29333067EF4
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.DeathWall_C_UAID_401C8360DB0929C101_1086483198
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/Y2/JW97IF66R4VTK4MAFCLDS5
+ |   |- Actor Instance Guid: 5998C1764753667DD627B487E89064A9
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097EBE01_2111959979
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/XG/0LN2DBX5SI7FBCSY54U2V8
+ |   |- Actor Instance Guid: 5A61BF874E2978C07B96F78E605EB21A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB0948BE01_2004570471
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/B/DQ/ZPUGA6LC1V0WVZ130DA0J4
+ |   |- Actor Instance Guid: 5F1896304C7C5E0C57C284BF7A44B9BF
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0992BE01_1114048554
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/08/EZK0D2NWJ4S2D7QPCSLR99
+ |   |- Actor Instance Guid: 5F2E2925424AE93E07B81AABB0A97C51
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0982BE01_1845743702
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/3/BJ/I8AVMFPM7LI70B1IJ3VVX0
+ |   |- Actor Instance Guid: 602563C34E0CD91EAD89ABAE48B48134
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1784239415
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/LN/60AF1V0VBCKHYRESOYGXPG
+ |   |- Actor Instance Guid: 610D4895424793940603E8A043F0BDE7
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1724917374
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/B/9L/8Z3EUK7S0KX4T1TXNNRFRE
+ |   |- Actor Instance Guid: 611C055D4D999CFE5CD88FAF4B04AB9C
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0982BE01_1581212698
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/9A/PETMXT68LSW3CX93JHK5NU
+ |   |- Actor Instance Guid: 6603B34D48B0135B5FD8B082B0320A85
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0980BE01_1918500338
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/8/PY/ULGNP74P6JCW9C8VPBUDVF
+ |   |- Actor Instance Guid: 67FBE5FC4EB99B252B69BCA76A25D7F8
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0991BE01_1809744376
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/9/5B/PKX9JILRF3YIBUO3ABY3CK
+ |   |- Actor Instance Guid: 6B342451411AED77B796D4837F9CC979
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/8/YI/ZD1C7LNF764M4WQVEJGN0W
+ |   |- Actor Instance Guid: 707D0D104A1A6DBFBBD050AD016E1BA7
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1787922561
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/3/8Y/E3W7D5QTE2F9OPNAXQID96
+ |   |- Actor Instance Guid: 74A0691A490380034BA38380F270029A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB097BBE01_1330122449
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/GO/86TWJQHI00EVFNPU9WMJ23
+ |   |- Actor Instance Guid: 7637F5E64AE48B65DC0661880F3278BA
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1944109596
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/6U/57RKQNWNWPQZS5ADRXEKNK
+ |   |- Actor Instance Guid: 79A1652241A319C3E2BEF68A979FCD6F
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098FBE01_1602852018
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/94/U7VVN6EXF7SZ4A5JLI0SKK
+ |   |- Actor Instance Guid: 7BC3BAF943D8FA2AF54C5AA2A29FA362
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1730345559
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/1/5E/B4H20DQKNFBEH97HA233A1
+ |   |- Actor Instance Guid: 81C792BA4BF473C75BC0EA8C3BFB6386
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/HM/K59H5VMKI5D8JKT7TAJOEZ
+ |   |- Actor Instance Guid: 82111EBA4245874D247823848B4F1385
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_RotatingPlatform_C_UAID_401C8360DB0992BE01_2138090564
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/6/UG/29M9FABEQ28DN1OJROSFJ7
+ |   |- Actor Instance Guid: 838F3A1D41B18E74E470A3BF948E5AD0
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097FBE01_1380543158
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/6L/EJS9ABJMZDW30KSH9V1SNL
+ |   |- Actor Instance Guid: 904AC1574D3D86CA3F4393BBCDA9E6F1
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0986BE01_1484924412
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/TV/E2S4BVSE1CXUK561CW3QPE
+ |   |- Actor Instance Guid: 925E49854841EE710F0D648BCA9515F2
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB097FBE01_1418753159
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/GL/ZYUZQYOV5FOI0OF3TH3IHU
+ |   |- Actor Instance Guid: 93248EAF43A227F32DED2E9F3F7B8C92
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0982BE01_1302595695
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/LO/OJPSUO1SZCY7SW1383D35M
+ |   |- Actor Instance Guid: 95C1E4CE42326EBC921163916DBD9517
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.StaticMeshActor_UAID_401C8360DB098BBE01_1248918303
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/6/DI/JUP9GS704LAOQYCD9DMS2Z
+ |   |- Actor Instance Guid: 967EAF8F42834A8583C76FA8F686A14A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0992BE01_1809738562
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/0W/H91FB6ESHJUTWLRSJHJQPT
+ |   |- Actor Instance Guid: 994EFA0F4190788FB2F0E3A5ED6C6091
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1682219558
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/KJ/SW6FUDC8GU2N5V9VKEQDEV
+ |   |- Actor Instance Guid: 9CB022554C5BE7B58F3B4CB9AC08115A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/AB/IY5NH1UI6HXYSH9I7ZZH3U
+ |   |- Actor Instance Guid: 9CBBDFD8486812AAE8770CB093DB7460
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097BBE01_1182011448
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/E7/UIGZWGL9XT4RDCPQHJ0D94
+ |   |- Actor Instance Guid: 9D6B00CF41615F016EEC7D9BBDBF14C3
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB090AC101_1189290728
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/0/N4/6AFM2MY1LEXWK05XUQQNOW
+ |   |- Actor Instance Guid: A46EEE084664DB59D2D2129CDDBF1AE7
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0992BE01_1896129563
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/8/A8/NJ5W38I5ZVWNHDQOYKNXRO
+ |   |- Actor Instance Guid: A76ED4F447BC1CF9182EF48A1B672E90
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0927C101_1479799838
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/2D/DVU8OFIXJVO3L9FBN2V0PO
+ |   |- Actor Instance Guid: AC3388C149420E5F0AE6C2B21F1A0D69
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1310346055
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/D2/MQ8RNY618E0ON65HL590UC
+ |   |- Actor Instance Guid: AE8202C64FAF7491058D709DBD9A7E88
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0980BE01_2117210340
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/C/3U/DW9JSIK45RK2K41F3Q3BVL
+ |   |- Actor Instance Guid: AED54D3E490C3E7C9C2A4CA06CBD312B
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1689187592
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/3/05/JVT0E67UOE7EHNS6ULY8H1
+ |   |- Actor Instance Guid: B033CFCB4C3236781E4FB79744B48DDC
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0987BE01_1748126593
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/SI/GF5H8K6SMWQS0IN27OE23I
+ |   |- Actor Instance Guid: B5EF0E63448E087F54597989CA4E932E
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB0992BE01_1638644557
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/F4/DHHI3D6XCRJWUO28XD3722
+ |   |- Actor Instance Guid: BFC0CFB74CCE54FF906EC281013602C5
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_ProjectileDestroyZone_C_UAID_401C8360DB098DBE01_2145609662
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/2/MS/3B5I4G24W704HASOPPILNW
+ |   |- Actor Instance Guid: C4D121FD4E5A65B181B7808504B64064
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0987BE01_2092887598
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/DQ/X71FCKVUVCSA56XZ26ZYCH
+ |   |- Actor Instance Guid: C612FE0A4CC7E0B91BDE26AAF4D24190
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB092BC101_1120459557
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/F4/BRPHZ5VEITPFA8ONXJVQYX
+ |   |- Actor Instance Guid: C8A468EA4A070CFDA34562BE0D3FADFE
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1357457058
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/L8/8FKMVQ3RE3IZH23LJKS4GS
+ |   |- Actor Instance Guid: CBF30B5F4829A0CC5F0CCDA2D0B4267A
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098CBE01_1956028480
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/0/UP/U5N7986JRVF8KP8JYU6NJK
+ |   |- Actor Instance Guid: CD096C7843C481E65623A195FC42BCFF
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB098EBE01_1132938841
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/3/3P/IH6QEN98YZKCXFZ251LX5B
+ |   |- Actor Instance Guid: D1790BD644D946F3809784BB5108DA71
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0980BE01_2077686339
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/V5/JNV28GX5T35FOJ1BTI0CHR
+ |   |- Actor Instance Guid: D50A561D43BDC3723FF9B2A5CF772454
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0982BE01_1416147697
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/9/GR/LWBUU9B6SQD452UEGN4DGE
+ |   |- Actor Instance Guid: D75E300443DA7F0DA47AAD9D9B3AABED
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0990BE01_1755540197
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/0/IK/108O3XLRH2SRX97WV469FP
+ |   |- Actor Instance Guid: D9A3AB1E4D3C3A80F33FB7B5E46DC8CD
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB0990BE01_1655135196
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/9/CQ/43RASH3BTN7PJWOQULW512
+ |   |- Actor Instance Guid: DB588182456AA97D178728BDD906EA8F
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB098EBE01_1113499839
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/7/X5/TCECASL3FTFADI8GCUFG1M
+ |   |- Actor Instance Guid: DDAB7E2D49EF06B488AB3A8876DF4511
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB098DBE01_1901089659
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/4/6L/JHTPIIRLCKLPFH46HFHSUT
+ |   |- Actor Instance Guid: DFADB7734ADFF765A579B59BC6C4B9BE
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/A/JK/LGLSXXUCXN7OQSCE96FQ3O
+ |   |- Actor Instance Guid: E6C4C89747E65FCDCCFD648F081F47C2
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Switch_C_UAID_401C8360DB0982BE01_1755399700
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/0/QQ/BT2LGIBFR50WN69JREPSGM
+ |   |- Actor Instance Guid: ED2EFE254CB37ABFDB0407865ADD9582
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Fan_C_UAID_401C8360DB092AC101_1706458380
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/8/T3/AGP37HO2MT0QDE8F7FL914
+ |   |- Actor Instance Guid: F110D73040E18025284B60A5E38BE3AA
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_DisableShootZone_C_UAID_401C8360DB0984BE01_1336453056
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/5/YL/ESXFU8DF7MMQO1MYQK0E5O
+ |   |- Actor Instance Guid: F1A4F7294DDFF55AAAF707A9053B3DD1
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB097FBE01_1357557157
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/D/AU/KV18HW19PINIPKT93N9VXV
+ |   |- Actor Instance Guid: F499096D4C1BBEBE5913DDB93E1EF970
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Door_C_UAID_401C8360DB0982BE01_1380150696
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/6/UP/L7S7AWHGWXQMTGGFXV241Y
+ |   |- Actor Instance Guid: F56298B845E23D212D3B68BF30ABC13C
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.RectLight_UAID_401C8360DB0990BE01_1586620195
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/8/SE/F59WAY9SV0JSUE6KPJMW3V
+ |   |- Actor Instance Guid: F64C0D7C48C0FA72A0D5E290C298F30B
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB0926C101_1246679660
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/6/5J/BD4QHWFJ7TW1DG1VC7666S
+ |   |- Actor Instance Guid: FC23D2DE46107C77379A4EAC319E5DAE
+ |   |-          Actor Path: /Game/MainStage.MainStage:PersistentLevel.BP_Platform_C_UAID_401C8360DB0909C101_2113810551
+ |   |-       Actor Package: /Game/__ExternalActors__/MainStage/B/M2/WE6FXJB43QIM7M6T0GCFBH
+ |   |- Actor Instance Guid: FD5738E04A5D92C8E9F46193BCB6EE75
+[+] Content of Grid Level 1
+
