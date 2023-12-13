@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Danny/Desktop/VGP201_Richard_Cuartero/Graphics_Programming/Content/Blueprints/Player/Player/BP_Player.uasset",
+				"C:/Users/Danny/Desktop/VGP201_Richard_Cuartero/Graphics_Programming/Content/Blueprints/Obstacles/Switch/BP_Switch.uasset",
+				"C:/Users/Danny/Desktop/VGP201_Richard_Cuartero/Graphics_Programming/Content/Blueprints/Obstacles/Basic/BP_Platform.uasset",
+				"C:/Users/Danny/Desktop/VGP201_Richard_Cuartero/Graphics_Programming/Content/Blueprints/Player/Projectile/BP_Projectile.uasset",
 				"C:/Users/richa/OneDrive/Documents/Unreal Projects/Graphics_Programming/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/richa/OneDrive/Documents/Unreal Projects/Graphics_Programming/Content/Blueprints/Player/BP_Player.uasset",
 				"C:/Users/richa/OneDrive/Documents/Unreal Projects/Graphics_Programming/Content/__ExternalActors__/Untitled/C/VR/0LAVFHBFPQHWQIE58DO5WF.uasset",
